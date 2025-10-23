@@ -1747,19 +1747,11 @@ body {
     z-index: 2;
 }
 
-.evento-tag-musical {
+.evento-tag-musical, {
+.evento-tag-educacional,
+.evento-tag-evento
     background: hsla(var(--primary) / 0.1);
     color: hsl(var(--primary));
-}
-
-.evento-tag-educacional {
-    background: hsla(var(--accent) / 0.1);
-    color: hsl(var(--accent));
-}
-
-.evento-tag-evento {
-    background: hsla(0, 65%, 50%, 0.1);
-    color: hsl(0, 65%, 50%);
 }
 
 .evento-title {
@@ -2948,6 +2940,7 @@ body {
     .hero-content {
         padding: 2.5rem 2rem;
         margin: 1rem;
+        border-radius: 4%;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
     }
@@ -3524,4 +3517,5 @@ body {
                 hsla(var(--primary) / 0.2) 100%),
             url('./img/tatui@2x.jpg') center/cover;
     }
+
 }
